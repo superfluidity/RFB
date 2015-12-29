@@ -3,8 +3,8 @@ rfb:
     name: RFB TEMPLATE WITH NO RFBC #(this RFB has no component RFB)
     description: This is a template to help in the creation of your own RFBs
     class: rfb      # Optional. Used to organize VNFs
-    hosting_env:  hypervisor
-    rfb_image: /path/to/imagefolder/RFB-TEMPLATE-VM.image
+    hosting_env:  hypervisor  #"hypervisor" is a generic hypervisor 
+    #rfb_image: /path/to/imagefolder/RFB-TEMPLATE-VM.image  when an image is specified, it refers to a specific hypervisor
 
     external-connections:
     -   name:              mgmt0
