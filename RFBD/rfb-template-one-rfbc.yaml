@@ -89,12 +89,12 @@ rfb:
             image:     /path/to/imagefolder/ADDITIONAL-DISK.qcow2   # Optional, depending on the device type
             image metadata: {"bus":"ide", "os_type":"windows", "use_incremental": "no" }  # Optional, depending on the device type
             vpci:      "0000:00:03.0"                          # Optional, depending on the device type (not needed for disk or cdrom)
-            xml:   '   xml text for XML described devices. Do not use single quotes inside
-                       The following words, if found, will be replaced:
-                       __file__    by image path, (image must be provided)
-                       __format__  by qcow2 or raw (image must be provided)
-                       __dev__     by device letter (b, c, d ...) 
-                       __vpci__    by vpci (vpci must be provided)
-                   '
+            xml:   '   xml text for XML described devices. Do not use single quotes inside '
+            #           The following words, if found, will be replaced:
+            #           __file__    by image path, (image must be provided)
+            #           __format__  by qcow2 or raw (image must be provided)
+            #           __dev__     by device letter (b, c, d ...) 
+            #           __vpci__    by vpci (vpci must be provided)
+
     # Additional Virtual Machines would be included here
 
