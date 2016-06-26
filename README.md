@@ -9,3 +9,9 @@ We start from the modelling of Virtualized Network Functions (VNFs) and of their
 
 We generalize the VNF and VNFC concepts into the concept of Resusable Functional Blocks and we provide a template to describe RFBs (RFBD - RFB Descriptor). RFBDs are described using YAML, exactly as OpenMano's VNFDs. 
 
+
+
+### Tools and hints
+
+Syntax Highlighting for Yang : https://github.com/apackeer/sublime-yang-syntax
+
