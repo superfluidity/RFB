@@ -10,12 +10,12 @@ We analyse different description models for VNFs and their composition:
  - the model proposed by the OpenMano project [2] and included in the OSM [3] release 1, see folder OSMr1 
  - the updated model proposed by ETSI in [5] [6], see folder ETSI16
 
-[1] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Architectural Framework”, ETSI GS NFV 002 V1.2.1 (2014-12)
-[2] https://github.com/nfvlabs/openmano
-[3] OSM - Open Source MANO https://osm.etsi.org/
-[4] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Management and Orchestration”, ETSI GS NFV-MAN 001 V1.1.1 (2014-12)
-[5] ETSI NFV ISG, “Network Functions Virtualisation (NFV); VNF Packaging Specification”, ETSI GS NFV-IFA 011 V2.1.1 (2016-10)
-[6] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Network Service Templates Specification”, ETSI GS NFV-IFA 014 V2.1.1 (2016-10)
+[1] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Architectural Framework”, ETSI GS NFV 002 V1.2.1 (2014-12)  
+[2] https://github.com/nfvlabs/openmano  
+[3] OSM - Open Source MANO https://osm.etsi.org/  
+[4] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Management and Orchestration”, ETSI GS NFV-MAN 001 V1.1.1 (2014-12)  
+[5] ETSI NFV ISG, “Network Functions Virtualisation (NFV); VNF Packaging Specification”, ETSI GS NFV-IFA 011 V2.1.1 (2016-10)  
+[6] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Network Service Templates Specification”, ETSI GS NFV-IFA 014 V2.1.1 (2016-10)  
 
  
 
