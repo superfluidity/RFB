@@ -1,4 +1,4 @@
-# RFB - Reusable Functional Blocks
+# RFB - Reusable Functional Blocks and RCDL - RFB Description and Composition Languages
 Reusable Functional Blocks for Network Function Virtualization
 
 Network Function Virtualization (NFV) is emerging as new architectural concept for the design and implementation of communication networks. In order to fully exploit the NFV potential, we need to re-think the way of designing and modelling the telecommunication services. We aim at supporting a granular and dynamic decomposition of services into Virtualized Network Functions (VNFs) and of Virtualized Network Functions into smaller components.
