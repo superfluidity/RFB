@@ -1,0 +1,1 @@
+# VNF and NS descriptors
