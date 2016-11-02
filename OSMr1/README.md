@@ -1,4 +1,4 @@
-# OSM / OpenMano
+# OSM / OpenMano descriptors
 
 The OpenMano project has provided a template for describing Virtualized Network Functions (VNFD - VNF Descriptor) and a template to describe Network Services (NSD - Network Service Descriptor). A Virtualized Network Function can be split in VNF Components (VNFCs), which can be described in the VNFD files.
 
