@@ -6,19 +6,25 @@ Network Function Virtualization (NFV) is emerging as new architectural concept f
 We start from the modelling of Virtualized Network Functions (VNFs) and of their composition, as defined by ETSI NFV working group [1]. We generalize the VNF concept into the concept of Reusable Functional Blocks (RFB).
 
 We analyse and compare different description models for VNFs and their composition:
- - the first model proposed by ETSI in [4], see folder ETSI14 
- - the model proposed by the OpenMano project [2] and included in the OSM [3] release 1, see folder OSMr1 
- - the updated model proposed by ETSI in [5] [6], see folder ETSI16
+ - the first model proposed by ETSI in [4], see folder [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14) 
+ - the model proposed by the OpenMano project [2] and included in the OSM [3] release 1, see folder [OSMr1](https://github.com/superfluidity/RFB/tree/master/OSMr1) 
+ - the updated model proposed by ETSI in [5] [6], see folder [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
 
-#### ETSI14
+#### [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14)
+- a simplified class diagram for the overall model
+- the set of descriptors related to a NS example
 
-### OSMr1
+#### [OSMr1](https://github.com/superfluidity/RFB/tree/master/OSMr1)
+- the set of descriptors related to a NS example
 
-### ETSI16
+#### [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
+- a simplified class diagram for the overall model
+- the set of descriptors related to a NS example
+- UML models (work in progress)
 
 ## References
 [1] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Architectural Framework”, ETSI GS NFV 002 V1.2.1 (2014-12)  
-[2] https://github.com/nfvlabs/openmano  
+[2] OpenMano project - https://github.com/nfvlabs/openmano  
 [3] OSM - Open Source MANO https://osm.etsi.org/  
 [4] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Management and Orchestration”, ETSI GS NFV-MAN 001 V1.1.1 (2014-12)  
 [5] ETSI NFV ISG, “Network Functions Virtualisation (NFV); VNF Packaging Specification”, ETSI GS NFV-IFA 011 V2.1.1 (2016-10)  
