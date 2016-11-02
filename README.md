@@ -5,11 +5,18 @@ Network Function Virtualization (NFV) is emerging as new architectural concept f
 
 We start from the modelling of Virtualized Network Functions (VNFs) and of their composition, as defined by ETSI NFV working group [1]. We generalize the VNF concept into the concept of Reusable Functional Blocks (RFB).
 
-We analyse different description models for VNFs and their composition:
+We analyse and compare different description models for VNFs and their composition:
  - the first model proposed by ETSI in [4], see folder ETSI14 
  - the model proposed by the OpenMano project [2] and included in the OSM [3] release 1, see folder OSMr1 
  - the updated model proposed by ETSI in [5] [6], see folder ETSI16
 
+#### ETSI14
+
+### OSMr1
+
+### ETSI16
+
+## References
 [1] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Architectural Framework”, ETSI GS NFV 002 V1.2.1 (2014-12)  
 [2] https://github.com/nfvlabs/openmano  
 [3] OSM - Open Source MANO https://osm.etsi.org/  
