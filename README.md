@@ -11,15 +11,16 @@ We analyse and compare different description models for VNFs and their compositi
  - the updated model proposed by ETSI in [5] [6], see folder [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
 
 #### [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14)
-- a simplified class diagram for the overall model
 - the set of descriptors related to a NS example
+- a simplified class diagram for the overall model
 
 #### [OSMr1](https://github.com/superfluidity/RFB/tree/master/OSMr1)
 - the set of descriptors related to a NS example
 
 #### [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
-- a simplified class diagram for the overall model
 - the set of descriptors related to a NS example
+- a simplified class diagram for the overall model
+- a GUI for editing and graphically displaying the descriptors (work in progress)
 - UML models (work in progress)
 
 ## References
