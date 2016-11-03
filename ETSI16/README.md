@@ -20,7 +20,13 @@ We have analysed the relationships among the model components and produced the f
 
 ### UML modeling
 
-We have started representing the model components with UML class diagrams, see [here](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML). We have produced standard UML files that can be visualized using the [Papyrus UML tool](https://eclipse.org/papyrus/). Actually, we have used [Plantuml](http://plantuml.com/) syntax to input the UML diagram and then a converter written in python to generate files in standard UML notation.
+To better understand and analyze the model defined by [1] and [2], we have started representing its components with UML class diagrams, see [here](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML).
+
+To this aim, our starting point have been UML class diagrams described in [PlantUML](http://plantuml.com/class-diagram), a human readable language to describe (and generate) UML diagrams. The advantage of a description in PlantUML is that is a compact and human readable language which is easy to compare with the reference documents.  The [ETSI16-uml.plantuml](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML/ETSI16-uml.plantuml) file contains the UML class diagram of the elements described in [1] and [2] in PlantUML format.
+
+On the other side, using [Papyrus](https://eclipse.org/papyrus/), a modeling environment hosted by the Eclipse foundation, has several other advantages, as it is based on standards and allows better control over the graphical layout of the diagrams.
+
+Thus, to combine the readability of the PlantUML class diagrams and at the same time be able to use the features provided by Papyrus, we have developed a converter from the PlantUML class diagram textual format to the Papyrus class diagram standard XML-based format. This tool is provided in the [plantuml2papyrus](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML/plantuml2papyrus/) directory.  The [ETSI16-uml.uml](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML/ETSI16-uml.uml) and [ETSI16-uml.notation](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML/ETSI16-uml.notation) files contain the UML class diagram in Papyrus format obtained through conversion of the ETSI16-uml.plantuml file cited above. 
 
 ### References
 [1] ETSI NFV ISG, “Network Functions Virtualisation (NFV); VNF Packaging Specification”, ETSI GS NFV-IFA 011 V2.1.1 (2016-10) [pdf link](http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/011/02.01.01_60/gs_NFV-IFA011v020101p.pdf)  
