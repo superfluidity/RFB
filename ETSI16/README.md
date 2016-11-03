@@ -24,7 +24,7 @@ To better understand and analyze the model defined by [1] and [2], we have start
 
 To this aim, our starting point are UML class diagrams described in [PlantUML](http://plantuml.com/class-diagram), a language to describe (and generate) UML diagrams. The advantage of a description in the PlantUML language is that it is compact and human readable and thus easy to compare with the reference documents. The [ETSI16-uml.plantuml](https://github.com/superfluidity/RFB/tree/master/ETSI16/UML/ETSI16-uml.plantuml) file contains the UML class diagram in PlantUML format of the elements described in [1] and [2]. The image below has been generated from this file using the PlantUML executable.
 
-![ETSI16-uml svg](https://github.com/superfluidity/RFB/blob/master/ETSI16/UML/ETSI16-uml.svg)
+![ETSI16-uml svg](https://github.com/superfluidity/RFB/blob/master/ETSI16/UML/ETSI16-uml.png)
 
 On the other side, using [Papyrus](https://eclipse.org/papyrus/), a modeling environment hosted by the Eclipse foundation, has several other advantages, as it is based on standards and allows better control over the graphical layout of the diagrams.
 
