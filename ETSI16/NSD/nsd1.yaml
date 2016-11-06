@@ -1,0 +1,243 @@
+--- 
+designer: netgroup
+nsDf: 
+  - 
+    flavourKey: stringkey
+    nsDfId: nsDf1
+    virtualLinkProfile: 
+      - 
+        flavourId: flavourId
+        localAffinityOrAntiAffinityRule: []
+        maxBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        minBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        virtualLinkDescId: vl1
+        virtualLinkProfileId: virtualLinkProfileId1
+      - 
+        flavourId: flavourId
+        localAffinityOrAntiAffinityRule: []
+        maxBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        minBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        virtualLinkDescId: vl2
+        virtualLinkProfileId: virtualLinkProfileId2
+      - 
+        flavourId: flavourId
+        localAffinityOrAntiAffinityRule: []
+        maxBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        minBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        virtualLinkDescId: vl3
+        virtualLinkProfileId: virtualLinkProfileId3
+      - 
+        flavourId: flavourId
+        localAffinityOrAntiAffinityRule: []
+        maxBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        minBitrateRequirements: 
+          leaf: "throughput of link"
+          root: "throughput of link"
+        virtualLinkDescId: vl4
+        virtualLinkProfileId: virtualLinkProfileId4
+    vnfProfile: 
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - 
+            affinityOrAntiAffiinty: Enum
+            groupId: groupId
+            scope: Enum
+        flavourId: vnfdf1
+        instantiationLevel: instantiationLevel
+        localAffinityOrAntiAffinityRule: 
+          - 
+            affinityOrAntiAffinity: Enum
+            scope: Enum
+        maxNumberOfInstances: 3
+        minNumberOfInstances: 1
+        nsVirtualLinkConnectivity: 
+          - 
+            cpdId: 
+              - VnfExtCp11
+            virtualLinkProfileId: virtualLinkProfileId1
+          - 
+            cpdId: 
+              - VnfExtCp13
+            virtualLinkProfileId: virtualLinkProfileId2
+          - 
+            cpdId: 
+              - VnfExtCp12
+            virtualLinkProfileId: virtualLinkProfileId3
+        vnfProfileId: vnfProfile1
+        vnfdId: vnf1
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - 
+            affinityOrAntiAffiinty: Enum
+            groupId: groupId
+            scope: Enum
+        flavourId: vnfdf2
+        instantiationLevel: instantiationLevel
+        localAffinityOrAntiAffinityRule: 
+          - 
+            affinityOrAntiAffinity: Enum
+            scope: Enum
+        maxNumberOfInstances: 3
+        minNumberOfInstances: 1
+        nsVirtualLinkConnectivity: 
+          - 
+            cpdId: 
+              - VnfExtCp21
+            virtualLinkProfileId: virtualLinkProfileId2
+        vnfProfileId: vnfProfile2
+        vnfdId: vnf2
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - 
+            affinityOrAntiAffiinty: Enum
+            groupId: groupId
+            scope: Enum
+        flavourId: vnfdf3
+        instantiationLevel: instantiationLevel
+        localAffinityOrAntiAffinityRule: 
+          - 
+            affinityOrAntiAffinity: Enum
+            scope: Enum
+        maxNumberOfInstances: 3
+        minNumberOfInstances: 1
+        nsVirtualLinkConnectivity: 
+          - 
+            cpdId: 
+              - VnfExtCp31
+            virtualLinkProfileId: virtualLinkProfileId2
+          - 
+            cpdId: 
+              - VnfExtCp32
+            virtualLinkProfileId: virtualLinkProfileId3
+          - 
+            cpdId: 
+              - VnfExtCp33
+            virtualLinkProfileId: virtualLinkProfileId4
+        vnfProfileId: vnfProfile3
+        vnfdId: vnf3
+nsdIdentifier: NSExample
+nsdInvariantId: NSExampleInvariant
+nsdName: NSExample
+sapd: 
+  - 
+    associatedCpdId: VnfExtCp11
+    cpRole: root
+    cpdId: sap1
+    description: description
+    layerProtocol: E-LAN
+    nsVirtualLinkDescId: vl1
+    sapAddressAssignment: true
+  - 
+    associatedCpdId: VnfExtCp33
+    cpRole: root
+    cpdId: sap2
+    description: description
+    layerProtocol: E-LAN
+    nsVirtualLinkDescId: vl4
+    sapAddressAssignment: true
+version: "1.0"
+virtualLinkDesc: 
+  - 
+    connectivityType: 
+      flowPattern: line
+      layerProtocol: E-LAN
+    virtuaLinkDescVersion: "0.1"
+    virtualLinkDescId: vl1
+    virtualLinkDf: 
+      - 
+        flavourId: flavourId
+        qos: 
+          latency: 500
+          packetDelayVariation: 50
+          packetLossRatio: 5
+          priority: 1
+        serviceAvaibilityLevel: "Level 1"
+    vitualLinkDescProvider: netgroup
+  - 
+    connectivityType: 
+      flowPattern: line
+      layerProtocol: E-LAN
+    virtuaLinkDescVersion: "0.1"
+    virtualLinkDescId: vl2
+    virtualLinkDf: 
+      - 
+        flavourId: flavourId
+        qos: 
+          latency: 500
+          packetDelayVariation: 50
+          packetLossRatio: 5
+          priority: 1
+        serviceAvaibilityLevel: "Level 1"
+    vitualLinkDescProvider: netgroup
+  - 
+    connectivityType: 
+      flowPattern: line
+      layerProtocol: E-LAN
+    virtuaLinkDescVersion: "0.1"
+    virtualLinkDescId: vl3
+    virtualLinkDf: 
+      - 
+        flavourId: flavourId
+        qos: 
+          latency: 500
+          packetDelayVariation: 50
+          packetLossRatio: 5
+          priority: 1
+        serviceAvaibilityLevel: "Level 1"
+    vitualLinkDescProvider: netgroup
+  - 
+    connectivityType: 
+      flowPattern: line
+      layerProtocol: E-LAN
+    virtuaLinkDescVersion: "0.1"
+    virtualLinkDescId: vl4
+    virtualLinkDf: 
+      - 
+        flavourId: flavourId
+        qos: 
+          latency: 500
+          packetDelayVariation: 50
+          packetLossRatio: 5
+          priority: 1
+        serviceAvaibilityLevel: "Level 1"
+    vitualLinkDescProvider: netgroup
+vnfdId: 
+  - vnf1
+  - vnf2
+  - vnf3
+vnffgd: 
+  - 
+    cpdPoolId: 
+      - 
+        cpdId: 
+          - sap1
+          - VnfExtCp11
+          - VnfExtCp12
+          - VnfExtCp32
+          - VnfExtCp33
+          - sap2
+        cpdPoolId: cpdPoolId
+    virtualLinkDescId: 
+      - vl01
+      - vl02
+      - vl03
+      - vl04
+    vnfdId: 
+      - vnf1
+      - vnf2
+      - vnf3
+    vnffgdId: vnffg1

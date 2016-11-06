@@ -1,0 +1,165 @@
+--- 
+deploymentFlavour: 
+  - 
+    affinityOrAntiAffinityGroup: 
+      - 
+        groupId: groupId
+        scope: Enum
+        type: Enum
+    defaultInstantiationLevelId: defaultInstantiationLevelId
+    description: description
+    flavourId: vnfdf2
+    instantiationLevel: 
+      - 
+        description: ""
+        levelId: ""
+        scaleInfo: 
+          aspectId: aspectId
+          scaleLevel: 1
+        vduLevel: 
+          - 
+            numberOfInstances: 5
+            vduId: vduId
+    monitoringParameter: 
+      - 
+        id: id
+        name: name
+        performanceMetric: performanceMetric
+    scalingAspect: 
+      - 
+        associatedGroup: "reference to VnfdElementGroup"
+        description: description
+        id: id
+        maxScaleLevel: 10
+        name: name
+    supportedOperation: 
+      - eum
+    vduProfile: 
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - affinityOrAntiAffinityGroupId
+        localAffinityOrAntiAffinityRule: 
+          - 
+            scope: enum
+            type: Enum
+        maxNumberOfInstances: 5
+        minNumberOfInstances: 1
+        vduId: vdu21
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - affinityOrAntiAffinityGroupId
+        localAffinityOrAntiAffinityRule: 
+          - 
+            scope: enum
+            type: Enum
+        maxNumberOfInstances: 5
+        minNumberOfInstances: 1
+        vduId: vdu22
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - affinityOrAntiAffinityGroupId
+        localAffinityOrAntiAffinityRule: 
+          - 
+            scope: enum
+            type: Enum
+        maxNumberOfInstances: 5
+        minNumberOfInstances: 1
+        vduId: vdu23
+    virtualLinkProfile: 
+      - 
+        affinityOrAntiAffinityGroupId: affinityOrAntiAffinityGroupId
+        flavourId: flavourId
+        localAffinityOrAntiAffinityRule: 
+          - 
+            scope: enum
+            type: Enum
+        vnfVirtualLinkDescId: intVirtualLink21
+    vnfLcmOperationsConfiguration: 
+      healVnfOpConfig: 
+        cause: 
+          - ""
+        parameter: 
+          - ""
+      instantiateVnfOpConfig: 
+        parameter: 
+          - ""
+      operateVnfOpConfig: 
+        maxRecommendedGracefulStopTimeout: 5
+        minGracefulStopTimeout: 1
+      scaleVnfOpConfig: 
+        parameter: 
+          - ""
+        scalingByMoreThanOneStepSupported: true
+      scaleVnfToLevelOpConfig: 
+        arbitraryTargetLevelsSupported: true
+        parameter: 
+          - ""
+      terminateVnfOpConfig: 
+        maxRecommendedGracefulTerminationtimeout: 5
+        minGracefulTerminationTimeout: 1
+intVirtualLinkDesc: 
+  - 
+    connectivityType: 
+      flowPattern: ""
+      layerProtocol: Enum
+    virtualLinkDescFlavour: 
+      - 
+        bitrateRequirements: 
+          leaf: 13
+          root: 7
+        connectivityType: 
+          flowPattern: ""
+          layerProtocol: Enum
+        description: ""
+        flavourId: flavourId
+        monitoringParameter: 
+          id: id
+          name: name
+          performanceMetric: performanceMetric
+        qos: 
+          latency: 500
+          packetDelayVariation: 50
+          packetLossRatio: 5
+          priority: 1
+        testAccess: ""
+    virtualLinkDescId: intVirtualLink21
+vdu: 
+  - 
+    intCpd: 
+      - 
+        cpRole: leaf
+        cpdId: VduCp21
+        intVirtualLinkDesc: intVirtualLink21
+        layerProtocol: E-LAN
+    name: vdu21
+    vduId: vdu21
+  - 
+    intCpd: 
+      - 
+        cpRole: leaf
+        cpdId: VduCp22
+        intVirtualLinkDesc: intVirtualLink21
+        layerProtocol: E-LAN
+    name: vdu22
+    vduId: vdu22
+  - 
+    intCpd: 
+      - 
+        cpRole: leaf
+        cpdId: VduCp23
+        intVirtualLinkDesc: intVirtualLink21
+        layerProtocol: E-LAN
+    name: vdu23
+    vduId: vdu23
+vnfExtCpd: 
+  - 
+    cpRole: leaf
+    cpdId: VnfExtCp21
+    description: description
+    intVirtualLinkDesc: intVirtualLink21
+    layerProtocol: E-LAN
+vnfProductName: vnf2
+vnfProvider: netgroup
+vnfSoftwareVersion: "0.1"
+vnfdId: vnf2
+vnfdVersion: "0.1"

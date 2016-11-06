@@ -1,0 +1,139 @@
+--- 
+deploymentFlavour: 
+  - 
+    affinityOrAntiAffinityGroup: 
+      - 
+        groupId: groupId
+        scope: Enum
+        type: Enum
+    defaultInstantiationLevelId: defaultInstantiationLevelId
+    description: description
+    flavourId: vnfdf3
+    instantiationLevel: 
+      - 
+        description: ""
+        levelId: ""
+        scaleInfo: 
+          aspectId: aspectId
+          scaleLevel: 1
+        vduLevel: 
+          - 
+            numberOfInstances: 5
+            vduId: vduId
+    monitoringParameter: 
+      - 
+        id: id
+        name: name
+        performanceMetric: performanceMetric
+    scalingAspect: 
+      - 
+        associatedGroup: "reference to VnfdElementGroup"
+        description: description
+        id: id
+        maxScaleLevel: 10
+        name: name
+    supportedOperation: 
+      - eum
+    vduProfile: 
+      - 
+        affinityOrAntiAffinityGroupId: 
+          - affinityOrAntiAffinityGroupId
+        localAffinityOrAntiAffinityRule: 
+          - 
+            scope: enum
+            type: Enum
+        maxNumberOfInstances: 5
+        minNumberOfInstances: 1
+        vduId: vdu31
+    virtualLinkProfile: 
+      - 
+        affinityOrAntiAffinityGroupId: affinityOrAntiAffinityGroupId
+        flavourId: flavourId
+        localAffinityOrAntiAffinityRule: 
+          - 
+            scope: enum
+            type: Enum
+        vnfVirtualLinkDescId: intVirtualLink31
+    vnfLcmOperationsConfiguration: 
+      healVnfOpConfig: 
+        cause: 
+          - ""
+        parameter: 
+          - ""
+      instantiateVnfOpConfig: 
+        parameter: 
+          - ""
+      operateVnfOpConfig: 
+        maxRecommendedGracefulStopTimeout: 5
+        minGracefulStopTimeout: 1
+      scaleVnfOpConfig: 
+        parameter: 
+          - ""
+        scalingByMoreThanOneStepSupported: true
+      scaleVnfToLevelOpConfig: 
+        arbitraryTargetLevelsSupported: true
+        parameter: 
+          - ""
+      terminateVnfOpConfig: 
+        maxRecommendedGracefulTerminationtimeout: 5
+        minGracefulTerminationTimeout: 1
+intVirtualLinkDesc: 
+  - 
+    connectivityType: 
+      flowPattern: ""
+      layerProtocol: Enum
+    virtualLinkDescFlavour: 
+      - 
+        bitrateRequirements: 
+          leaf: 13
+          root: 7
+        connectivityType: 
+          flowPattern: ""
+          layerProtocol: Enum
+        description: ""
+        flavourId: flavourId
+        monitoringParameter: 
+          id: id
+          name: name
+          performanceMetric: performanceMetric
+        qos: 
+          latency: 500
+          packetDelayVariation: 50
+          packetLossRatio: 5
+          priority: 1
+        testAccess: ""
+    virtualLinkDescId: intVirtualLink31
+vdu: 
+  - 
+    intCpd: 
+      - 
+        cpRole: leaf
+        cpdId: VduCp31
+        intVirtualLinkDesc: intVirtualLink31
+        layerProtocol: E-LAN
+    name: vdu31
+    vduId: vdu31
+vnfExtCpd: 
+  - 
+    cpRole: leaf
+    cpdId: VnfExtCp31
+    description: description
+    intVirtualLinkDesc: intVirtualLink31
+    layerProtocol: E-LAN
+  - 
+    cpRole: leaf
+    cpdId: VnfExtCp32
+    description: description
+    intVirtualLinkDesc: intVirtualLink31
+    layerProtocol: E-LAN
+  - 
+    cpRole: leaf
+    cpdId: VnfExtCp33
+    description: description
+    intVirtualLinkDesc: intVirtualLink31
+    layerProtocol: E-LAN
+vnfProductName: vnf3
+vnfProvider: netgroup
+vnfSoftwareVersion: "0.1"
+vnfdId: vnf3
+vnfdVersion: "0.1"
