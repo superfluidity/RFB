@@ -20,7 +20,7 @@ We analyse and compare different description models for VNFs and their compositi
 - the set of descriptors related to a NS example
 - a simplified class diagram for the overall model
 - a GUI for editing and graphically displaying the descriptors (work in progress)
-- UML models (work in progress)
+- UML models (and a tool to input UML models using a simplified notation)
 
 ## References
 [1] ETSI NFV ISG, “Network Functions Virtualisation (NFV); Architectural Framework”, ETSI GS NFV 002 V1.2.1 (2014-12)  
