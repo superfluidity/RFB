@@ -2,7 +2,8 @@
 
 ### Content
 - [Example Network Service and corresponding descriptors](#example-network-service-and-corresponding-descriptors)
-- [Simplified diagram](#simplified-diagram)
+- [Web GUI for editing VNFDs and NSDs](#web-gui-for-editing-vnfds-and-nsds)
+- [Simplified diagram of the Information Model](#simplified-diagram-of-the-information-model)
 - [UML modeling](#uml-modeling)
 - [References](#references)
 
@@ -13,7 +14,11 @@ We have identified an example Network Services, composed by 3 VNFs. The NS is re
 
 We have provided example descriptors for the NS and VNFs, compliant with the specifications in [1] and [2].
 
-### Simplified diagram
+### Web GUI for editing VNFDs and NSDs
+
+See live demo [here](http://rdcl-demo.netgroup.uniroma2.it/)
+
+### Simplified diagram of the Information Model
 We have analysed the relationships among the model components and produced the following diagram.
 
 ![ETSI16-model-simplified-diagram](https://github.com/superfluidity/RFB/blob/master/ETSI16/images/ETSI16-overall-simplified-diagram.png)
