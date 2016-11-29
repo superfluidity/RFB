@@ -14,6 +14,9 @@ We have identified an example Network Services, composed by 3 VNFs. The NS is re
 
 We have provided example descriptors for the NS and VNFs represented in the figure above, compliant with the specifications in [1] and [2].
 
+<br /> 
+<br />
+
 ### Web GUI for editing VNFDs and NSDs
 <br /> 
 <br /> 
