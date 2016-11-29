@@ -19,7 +19,7 @@ We analyse and compare different description models for VNFs and their compositi
 #### [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
 - the set of descriptors related to a NS example
 - a simplified class diagram for the overall model
-- a web GUI for editing and graphically displaying the descriptors ([see live demo](http:http://rdcl-demo.netgroup.uniroma2.it))
+- a web GUI for editing and graphically displaying the descriptors ([see live demo](http://rdcl-demo.netgroup.uniroma2.it))
 - UML models (and a tool to input UML models using a simplified notation)
 
 ## References
