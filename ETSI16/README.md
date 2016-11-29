@@ -17,10 +17,7 @@ We have provided example descriptors for the NS and VNFs represented in the figu
 ### Web GUI for editing VNFDs and NSDs
 <br /> 
 <br /> 
-See live demo <a href="http://rdcl-demo.netgroup.uniroma2.it/" target="_blank">here</a>
-
-new try <a target="_blank" href="http://rdcl-demo.netgroup.uniroma2.it/">here 2</a>
-
+See live demo [here](http://rdcl-demo.netgroup.uniroma2.it/)
 
 <br /> 
 <br /> 
