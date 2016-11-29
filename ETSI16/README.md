@@ -12,11 +12,16 @@ We have identified an example Network Services, composed by 3 VNFs. The NS is re
 
 ![NS example 01](https://github.com/superfluidity/RFB/blob/master/ETSI16/images/NS-example-01-ETSI16.png)
 
-We have provided example descriptors for the NS and VNFs, compliant with the specifications in [1] and [2].
+We have provided example descriptors for the NS and VNFs represented in the figure above, compliant with the specifications in [1] and [2].
 
 ### Web GUI for editing VNFDs and NSDs
 
 See live demo [here](http://rdcl-demo.netgroup.uniroma2.it/)
+
+
+
+
+
 
 ### Simplified diagram of the Information Model
 We have analysed the relationships among the model components and produced the following diagram.
