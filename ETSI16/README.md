@@ -15,14 +15,13 @@ We have identified an example Network Services, composed by 3 VNFs. The NS is re
 We have provided example descriptors for the NS and VNFs represented in the figure above, compliant with the specifications in [1] and [2].
 
 ### Web GUI for editing VNFDs and NSDs
-
-See live demo [here](http://rdcl-demo.netgroup.uniroma2.it/)
+<br /> 
+<br /> 
+See live demo <a href="http://rdcl-demo.netgroup.uniroma2.it/" target="_blank">here</a>
 
 <br /> 
 <br /> 
-
-
-
+<br /> 
 
 ### Simplified diagram of the Information Model
 We have analysed the relationships among the model components and produced the following diagram.
