@@ -13,7 +13,7 @@ We analyse and compare different description models for VNFs and their compositi
 - the set of descriptors related to a NS example
 - a simplified class diagram for the overall model
 
-#### [OSMr1](https://github.com/superfluidity/RFB/tree/master/OSMr1)
+#### [OSMr1 (OpenMano)](https://github.com/superfluidity/RFB/tree/master/OSMr1)
 - the set of descriptors related to a NS example
 
 #### [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
