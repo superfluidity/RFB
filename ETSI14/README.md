@@ -1,4 +1,4 @@
-# VNF and NS descriptors proposed by ETSI NFV ISG in 2014-12
+# VNF and NS descriptors proposed by ETSI NFV ISG in 2014-12 ("Release 1")
 
 We have provided .json descriptors for NS, VNF and VLD compliant to [1], for the NS represented in Figure 6.4 (page 60) of [1].
 
