@@ -5,18 +5,18 @@ Network Function Virtualization (NFV) is emerging as new architectural concept f
 We start from the modelling of Virtualized Network Functions (VNFs) and of their composition, as defined by ETSI NFV working group [1]. We generalize the VNF concept into the concept of Reusable Functional Blocks (RFB).
 
 We analyse and compare different description models for VNFs and their composition:
- - the first model proposed by ETSI in [4], see folder [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14) 
+ - the first model ("Release 1") proposed by ETSI in [4], see folder [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14) 
  - the model proposed by the OpenMano project [2] and included in the OSM [3] release 1, see folder [OSMr1](https://github.com/superfluidity/RFB/tree/master/OSMr1) 
- - the updated model proposed by ETSI in [5] [6], see folder [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
+ - the updated model ("Release 2") proposed by ETSI in [5] [6], see folder [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
 
-#### [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14)
+#### [ETSI14](https://github.com/superfluidity/RFB/tree/master/ETSI14) ("Release 1")
 - the set of descriptors related to a NS example
 - a simplified class diagram for the overall model
 
 #### [OSMr1 (OpenMano)](https://github.com/superfluidity/RFB/tree/master/OSMr1)
 - the set of descriptors related to a NS example
 
-#### [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16)
+#### [ETSI16](https://github.com/superfluidity/RFB/tree/master/ETSI16) ("Release 2")
 - the set of descriptors related to a NS example
 - a simplified class diagram for the overall Information Model
 - a web GUI for editing and graphically displaying the descriptors ([see live demo](http://rdcl-demo.netgroup.uniroma2.it))
