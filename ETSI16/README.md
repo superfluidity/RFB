@@ -1,4 +1,4 @@
-# VNF and NS descriptors proposed by ETSI NFV ISG in 2016-10
+# VNF and NS descriptors proposed by ETSI NFV ISG in 2016-10 ("Release 2")
 
 ### Content
 - [Example Network Service and corresponding descriptors](#example-network-service-and-corresponding-descriptors)
